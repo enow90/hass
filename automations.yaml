@@ -1,0 +1,67 @@
+- id: '1530964881219'
+  alias: Inundacion aire acondicionado
+  trigger:
+  - entity_id: binary_sensor.water_leak_sensor_158d0002138df7
+    from: 'off'
+    platform: state
+    to: 'on'
+  condition: []
+  action:
+  - service: script.ac_off
+  - data:
+      message: Se ha inundado el aire acondicionado, comprueba que se ha apagado
+      title: Aire acondicionado inundado
+    service: notify.pushover
+  - data:
+      entity_id: media_player.grupo_de_la_casa
+      language: es-es
+      message: Se ha desbordado de agua la botella del aire acondicionado,  he apagado
+        el aire acondicionado por ti, revísalo
+    service: tts.google_say
+- id: '1530989987372'
+  alias: movimiento dormitorio luz
+  trigger:
+  - entity_id: " binary_sensor.motion_sensor_158d0001ad6cee\t"
+    from: 'off'
+    platform: state
+    to: 'on'
+  condition: []
+  action:
+  - data:
+      brightness: '255'
+      entity_id: light.dormitorio
+    service: light.turn_on
+- id: '1530990825692'
+  alias: luz nocturna de salon
+  trigger:
+  - entity_id: binary_sensor.motion_sensor_158d00013f8f97
+    from: 'off'
+    platform: state
+    to: 'on'
+  condition:
+  - after: sunset
+    after_offset: '3'
+    condition: sun
+  action:
+  - data:
+      entity_id: light.gateway_light_286c0785b42a
+      profile: relax
+    service: light.turn_on
+  - wait_template: 00:00:30
+  - data:
+      entity_id: light.gateway_light_286c0785b42a
+    service: light.turn_off
+- id: '1530992601715'
+  alias: bienvenido a casa
+  trigger:
+  - entity_id: device_tracker.oneplus5
+    from: away
+    platform: state
+    to: home
+  condition: []
+  action:
+  - data:
+      entity_id: media_player.grupo_de_la_casa
+      language: es-es
+      message: Bienvenido a casa edu
+    service: tts.google_say

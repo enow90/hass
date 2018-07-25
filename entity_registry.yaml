@@ -1,0 +1,360 @@
+sensor.temperature_158d0001a4a5d8:
+  config_entry_id:
+  name: xiaomi.temperature.exterior
+  platform: xiaomi_aqara
+  unique_id: temperature158d0001a4a5d8
+sensor.humidity_158d0001a4a5d8:
+  config_entry_id:
+  name:
+  platform: xiaomi_aqara
+  unique_id: humidity158d0001a4a5d8
+sensor.temperature_158d000171f262:
+  config_entry_id:
+  name:
+  platform: xiaomi_aqara
+  unique_id: temperature158d000171f262
+sensor.pressure_158d0001a4a5d8:
+  config_entry_id:
+  name:
+  platform: xiaomi_aqara
+  unique_id: pressure158d0001a4a5d8
+sensor.humidity_158d000155cc13:
+  config_entry_id:
+  name:
+  platform: xiaomi_aqara
+  unique_id: humidity158d000155cc13
+sensor.illumination_158d0001ad6cee:
+  config_entry_id:
+  name:
+  platform: xiaomi_aqara
+  unique_id: lux158d0001ad6cee
+sensor.humidity_158d000171f262:
+  config_entry_id:
+  name:
+  platform: xiaomi_aqara
+  unique_id: humidity158d000171f262
+sensor.temperature_158d0001a4a5e4:
+  config_entry_id:
+  name: xiaomi.temperature.salon
+  platform: xiaomi_aqara
+  unique_id: temperature158d0001a4a5e4
+sensor.temperature_158d000155cc13:
+  config_entry_id:
+  name: xiaomi.temperature.dormitorio
+  platform: xiaomi_aqara
+  unique_id: temperature158d000155cc13
+sensor.humidity_158d0001a4a5e4:
+  config_entry_id:
+  name:
+  platform: xiaomi_aqara
+  unique_id: humidity158d0001a4a5e4
+sensor.pressure_158d0001a4a5e4:
+  config_entry_id:
+  name:
+  platform: xiaomi_aqara
+  unique_id: pressure158d0001a4a5e4
+sensor.illumination_286c0785b42a:
+  config_entry_id:
+  name:
+  platform: xiaomi_aqara
+  unique_id: illumination286c0785b42a
+sensor.pressure_158d000171f262:
+  config_entry_id:
+  name:
+  platform: xiaomi_aqara
+  unique_id: pressure158d000171f262
+light.gateway_light_286c0785b42a:
+  config_entry_id:
+  name:
+  platform: xiaomi_aqara
+  unique_id: rgb286c0785b42a
+binary_sensor.switch_158d000156803e:
+  config_entry_id:
+  name:
+  platform: xiaomi_aqara
+  unique_id: status158d000156803e
+binary_sensor.motion_sensor_158d00013f8f97:
+  config_entry_id:
+  name: motion.salon
+  platform: xiaomi_aqara
+  unique_id: status158d00013f8f97
+binary_sensor.water_leak_sensor_158d0002138df7:
+  config_entry_id:
+  name: xiaomi.water.leak
+  platform: xiaomi_aqara
+  unique_id: status158d0002138df7
+binary_sensor.motion_sensor_158d00012591a5:
+  config_entry_id:
+  name: motion.recibidor
+  platform: xiaomi_aqara
+  unique_id: status158d00012591a5
+binary_sensor.door_window_sensor_158d000129981b:
+  config_entry_id:
+  name:
+  platform: xiaomi_aqara
+  unique_id: status158d000129981b
+binary_sensor.motion_sensor_158d000127c7ce:
+  config_entry_id:
+  name:
+  platform: xiaomi_aqara
+  unique_id: status158d000127c7ce
+binary_sensor.smoke_sensor_158d00014d38f2:
+  config_entry_id:
+  name:
+  platform: xiaomi_aqara
+  unique_id: alarm158d00014d38f2
+binary_sensor.motion_sensor_158d0001ad6cee:
+  config_entry_id:
+  name: motion.dormitorio
+  platform: xiaomi_aqara
+  unique_id: status158d0001ad6cee
+binary_sensor.switch_158d00011c2313:
+  config_entry_id:
+  name:
+  platform: xiaomi_aqara
+  unique_id: status158d00011c2313
+binary_sensor.switch_158d00013f6db9:
+  config_entry_id:
+  name:
+  platform: xiaomi_aqara
+  unique_id: status158d00013f6db9
+switch.plug_158d000128c596:
+  config_entry_id:
+  name:
+  platform: xiaomi_aqara
+  unique_id: status158d000128c596
+switch.plug_158d0001db0680:
+  config_entry_id:
+  name:
+  platform: xiaomi_aqara
+  unique_id: status158d0001db0680
+media_player.chrome:
+  config_entry_id:
+  name:
+  platform: plex
+  unique_id: luplowgthdjtv6v8hjbfj4eh
+remote.xiaomi_miio_10_134_101_122:
+  config_entry_id:
+  name:
+  platform: xiaomi_miio
+  unique_id: chuangmi.ir.v2-34:CE:00:CE:A4:AD
+media_player.chromecast_edu:
+  config_entry_id: 485a52a7b9e046a78ea98f3f353d8cfb
+  name:
+  platform: cast
+  unique_id: 065b6d7c-a59c-ec79-b4dc-5c91bba7f8b3
+media_player.salon:
+  config_entry_id: 485a52a7b9e046a78ea98f3f353d8cfb
+  name:
+  platform: cast
+  unique_id: a8e30651-2395-3528-ac60-7306a82cecc6
+media_player.oneplus_a5000:
+  config_entry_id:
+  name:
+  platform: plex
+  unique_id: 26e52202a3a27b33-com-plexapp-android
+zwave.aeotec_dsa02203_zstick_s2:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: node-1
+zwave.fibaro_system_fgwpef_wall_plug:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: node-3
+zwave.aeotec_zw100_multisensor_6:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: node-7
+switch.fibaro_system_fgwpef_wall_plug_switch:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 3-72057594093060096
+sensor.fibaro_system_fgwpef_wall_plug_power:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 3-72057594093273218
+sensor.fibaro_system_fgwpef_wall_plug_exporting:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 3-72057594093273600
+binary_sensor.aeotec_zw100_multisensor_6_sensor:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 7-72057594160349184
+sensor.aeotec_zw100_multisensor_6_temperature:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 7-72057594160365586
+sensor.aeotec_zw100_multisensor_6_luminance:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 7-72057594160365618
+sensor.aeotec_zw100_multisensor_6_relative_humidity:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 7-72057594160365650
+sensor.aeotec_zw100_multisensor_6_ultraviolet:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 7-72057594160366002
+sensor.fibaro_system_fgwpef_wall_plug_energy:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 3-72057594093273090
+sensor.aeotec_zw100_multisensor_6_sourcenodeid:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 7-72057594161414177
+sensor.aeotec_zw100_multisensor_6_burglar:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 7-72057594161414305
+sensor.fibaro_system_fgwpef_wall_plug_power_2:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 3-72057594093256770
+sensor.aeotec_zw100_multisensor_6_alarm_type:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 7-72057594161414145
+sensor.aeotec_zw100_multisensor_6_alarm_level:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 7-72057594161414161
+zwave.fibaro_system_fgfs101_flood_sensor:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: node-6
+binary_sensor.fibaro_system_fgfs101_flood_sensor_sensor:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 6-72057594143571968
+binary_sensor.fibaro_system_fgfs101_flood_sensor_general:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 6-72057594145341441
+binary_sensor.fibaro_system_fgfs101_flood_sensor_flood:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 6-72057594145341521
+sensor.fibaro_system_fgfs101_flood_sensor_temperature:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 6-72057594143588370
+sensor.fibaro_system_fgfs101_flood_sensor_alarm_type:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 6-72057594144636929
+sensor.fibaro_system_fgfs101_flood_sensor_alarm_level:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 6-72057594144636945
+sensor.aeotec_zw100_multisensor_6_direction:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 7-72057594160365682
+media_player.chromecast2819:
+  config_entry_id: 485a52a7b9e046a78ea98f3f353d8cfb
+  name:
+  platform: cast
+  unique_id: 3f863f9b-7402-5da2-fe52-5d80d5539447
+media_player.home_dormitorio:
+  config_entry_id: 485a52a7b9e046a78ea98f3f353d8cfb
+  name:
+  platform: cast
+  unique_id: 663c836c-f501-6ebd-9358-3d1ccdf90ef7
+media_player.grupo_de_la_casa:
+  config_entry_id: 485a52a7b9e046a78ea98f3f353d8cfb
+  name:
+  platform: cast
+  unique_id: 169be3f2-0dd1-419f-9371-53423628bc4c
+sensor.fibaro_system_fgwpef_wall_plug_luminance:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 3-72057594093256754
+sensor.fibaro_system_fgwpef_wall_plug_temperature:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 3-72057594093256722
+sensor.aeotec_zw100_multisensor_6_tank_capacity:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 7-72057594160365874
+light.despacho:
+  config_entry_id: 2ff2f37072bc4288aee62790447c0e4b
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:00:ff:68:ff-0b
+light.hue_lightstrip_plus_1:
+  config_entry_id: 2ff2f37072bc4288aee62790447c0e4b
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:03:a1:cc:ee-0b
+light.gatos:
+  config_entry_id: 2ff2f37072bc4288aee62790447c0e4b
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:10:52:a6:03-0b
+light.recibidor:
+  config_entry_id: 2ff2f37072bc4288aee62790447c0e4b
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:10:52:ae:41-0b
+light.trastero:
+  config_entry_id: 2ff2f37072bc4288aee62790447c0e4b
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:10:52:ad:b4-0b
+light.techo_color:
+  config_entry_id: 2ff2f37072bc4288aee62790447c0e4b
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:02:8e:33:bd-0b
+light.lampara_salon:
+  config_entry_id: 2ff2f37072bc4288aee62790447c0e4b
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:10:51:ad:10-0b
+light.strip_mesa:
+  config_entry_id: 2ff2f37072bc4288aee62790447c0e4b
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:00:cf:c7:9f-0b
+light.salon_estanteria:
+  config_entry_id: 2ff2f37072bc4288aee62790447c0e4b
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:00:c2:a6:7f-0b
+light.bloom_television:
+  config_entry_id: 2ff2f37072bc4288aee62790447c0e4b
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:00:c0:b5:c3-0b
