@@ -2,8 +2,8 @@ homeassistant:
   # Name of the location where Home Assistant is running
   name: Home
   # Location required to calculate the time the sun rises and sets
-  latitude: 38.9852
-  longitude: -0.5571
+  latitude: !secret latitude
+  longitude: !secret longitude
   # Impacts weather/sunrise data (altitude above sea level in meters)
   elevation: 0
   # metric for Metric, imperial for Imperial
@@ -85,13 +85,13 @@ fan:
           service: script.ac_off
   - platform: xiaomi_miio
     name: Xiaomi Air Purifier 2
-    host: 10.134.101.180
+    host: !secret ip_purifier
     token: !secret  token_purificador
     model: zhimi.airpurifier.m1
     
 vacuum:
   - platform: xiaomi_miio
-    host: 10.134.101.102
+    host: !secret ip_vacuum
     token: !secret  token_aspirador
   
 zwave:
@@ -101,7 +101,7 @@ zwave:
 
 camera:
   - platform: foscam
-    ip: 10.134.101.156
+    ip: !secret ip_foscam
     username: !secret foscam_user
     password: !secret foscam_password
     
@@ -109,7 +109,7 @@ camera:
 remote:
   - platform: xiaomi_miio
     name: "bathroom remote"
-    host: 10.134.101.122
+    host: !secret ip_miremote
     token: !secret token_miremote
     slot: 1
     timeout: 30
@@ -173,7 +173,7 @@ media_player:
     
 device_tracker:
   - platform: linksys_smart
-    host: 10.134.101.31
+    host: !secret ip_router
     username: !secret router_linksys_user
     password: !secret router_linksys_pw
     new_device_defaults:
